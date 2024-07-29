@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(to right, red, blue);
+    padding: 2rem;
+    font-size: 2rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    font-size: 150px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: grab;
+    border: 5px solid black;
+}
+.choice:active{
+    opacity: 0.8;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+   
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    font-size: 2rem;;
+}
+.yourScore{
+    gap: 2rem;
+}
+compScore{
+    margin-bottom: 2rem;
+}
+#reset{
+    height: 2rem;
+    width: 5rem;
+    position: relative;
+    
+}
+#yourName, #compName{
+    margin-top: 20px;
+}
+.messageBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    background-color: black;
+    width: text;
+    color: white;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 4px;
+    margin-top: 3rem;
+}
+.winBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+#winner{
+    background-image: linear-gradient(to right, red, blue);
+    padding: 2rem;
+    font-size: 2rem;
+}
+#newGame{
+    height: 2rem;
+    width: 5rem;    
+}
+.hide{
+    display: none;
+}
